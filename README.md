@@ -2,8 +2,8 @@
 Learning Java With Bro Code Channel In Youtube  
 
 
-public class Main {
-    public static void main(String[] args) {
+    public class Main {
+        public static void main(String[] args) {
 
     **//This is singe line comment in java**
         System.out.print("Hello and welcome!");
