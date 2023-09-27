@@ -2,14 +2,34 @@ import java.util.Scanner; // including Scanner
 import javax.swing.JOptionPane;
 public class Main {
     public static void main(String[] args) {
-        //Graphical user Interface In Java
-        String name = JOptionPane.showInputDialog("Enter Your Name:");
-        JOptionPane.showMessageDialog(null,"Hello "+name);
+        //Mathematics Methods
+        double x = 3.14;
+        double y = 10;
 
-        int age = Integer.parseInt( JOptionPane.showInputDialog("Enter Your Age")); //converting string to int
-        JOptionPane.showMessageDialog(null,"Your Age is : "+age);
+        double z = Math.max(x,y);    //maximum
+        double a = Math.min(x,y);   // minimum
+        double abs = Math.abs(y);   //absolute
+        double sqrt = Math.sqrt(y);  //square root
+        double round = Math.round(x); // roundoff
+        double ceil = Math.ceil(x); //Rounded Up
+        double floor = Math.floor(x); //Rounded down
 
-        double height = Double.parseDouble( JOptionPane.showInputDialog("Enter Your Height")); //converting string to int
-        JOptionPane.showMessageDialog(null,"Your height is : "+height+"cm");
+
+
+
+        System.out.println(z);
+        System.out.println(a);
+        System.out.println(abs); //absolute value no without -
+        System.out.println(sqrt);
+        System.out.println(round);
+        System.out.println(ceil);
+        System.out.println(floor);
+
+
+
+
+
+
+
     }
 }
