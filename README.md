@@ -126,9 +126,15 @@ Learning Java With Bro Code Channel In Youtube
                 System.out.println("Side C (hypotenus) :  " +hyp);
         
                 scanner.close();
+
+        //Random Values IN Java
+            Random random = new Random();
+            int x = random.nextInt(6)+1;
+            double y = random.nextDouble(6)+1;
+            System.out.println(y);
                 
                 
         
         
-                }
+        }
     }
