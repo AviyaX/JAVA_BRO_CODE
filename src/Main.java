@@ -1,22 +1,15 @@
 import java.util.Scanner; // including Scanner
-
+import javax.swing.JOptionPane;
 public class Main {
     public static void main(String[] args) {
-        //Expressions In Java =  Operands & Operators
-            //Operands = values, Variables, numbers, quantity
-            // Operators - + - * / %
-        double friends =10;
+        //Graphical user Interface In Java
+        String name = JOptionPane.showInputDialog("Enter Your Name:");
+        JOptionPane.showMessageDialog(null,"Hello "+name);
 
-//        friends= friends+1;   // Addition
-//        friends = friends -1; // Sub
-//        friends =friends *2;   //Multiply
-//        friends =friends / 2;    // Divide
-//        friends= friends %2; // Module - remaining after divide
-        friends = (double) friends / 3;    // onvert into different data type
+        int age = Integer.parseInt( JOptionPane.showInputDialog("Enter Your Age")); //converting string to int
+        JOptionPane.showMessageDialog(null,"Your Age is : "+age);
 
-
-
-        System.out.println("you Have " +friends +" now");
-
+        double height = Double.parseDouble( JOptionPane.showInputDialog("Enter Your Height")); //converting string to int
+        JOptionPane.showMessageDialog(null,"Your height is : "+height+"cm");
     }
 }
