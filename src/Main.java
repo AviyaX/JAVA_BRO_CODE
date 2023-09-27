@@ -3,32 +3,38 @@ import javax.swing.JOptionPane;
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-        // Switch cases
-           // - Statements that allows a variable to be tested for equality against a list of values
+        /* Logical Operators
+                   && -  (AND) - Both Conditions Must Be true
+                   || -  (OR)- At least one condition must be true
+                   ! -  (NOT) - Reverse Boolean Value of a condition
+         */
+//        int temp =15;
+//        if (temp>30){
+//            System.out.println("It is hot outside");
+//        }
+//        else if(temp>=20 && temp<=30){
+//            System.out.println("It is Warm Outside");
+//        }
+//        else{
+//            System.out.println("It is cold");
+//        }
 
-        String day  = "Monday";
-        switch(day){
-            case "Sunday":
-                System.out.println("It is Sunday");
-                break;
-            case "Monday":
-                System.out.println("It is Monday");
-                break;
-            case "Tuesday":
-                System.out.println("It is Tuesday");
-                break;
-            case "Wednesday":
-                System.out.println("It is Wednesday");
-                break;
-            case "Thursday":
-                System.out.println("It is Thursday");
-                break;
-            case "Friday":
-                System.out.println("It is Friday");
-                break;
-            default:
-                System.out.println("Thai Is Not A Date");
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Your Are playing a game! Press q or Q for exit.");
+//        String res = scanner.next();
+//        if(res.equals("q") || res.equals("Q")){ // checking Strings ==
+//            System.out.println("You Exit the game");
+//        }else{
+//            System.out.println("You are still playing the game");
+//        }
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Your Are playing a game! Press q or Q for exit.");
+        String res = scanner.next();
+        if(!res.equals("q") && !res.equals("Q")){ // checking Strings ==
+            System.out.println("You are still playing the game");
+        }else{
+            System.out.println("You Exit the game");
         }
-
     }
 }
