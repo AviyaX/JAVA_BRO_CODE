@@ -1,22 +1,21 @@
 
 public class Main {
     public static void main(String[] args) {
+        //Variables
+        int x; //declaration
+        x=123; // Assignment
+        long y = 2132131267312L;
+        float z =3.14f;
+        double a=1.34;
+        boolean b=true;
+        String name ="Avishka Induwara";
 
-        //This is singe line comment in java
-        System.out.print("Hello and welcome!");
-        System.out.print("My Name Is Avishka Induwara"); //print prints in same line
-        System.out.println("I Love pizza "); // println prints on separate line
-        System.out.print("My name is Avishka\nInduwara");
-
-        /* This is multi line comment in java
-        Escape Sequences
-            \n - New Character (go to new line)
-            \t -  Empty Space (Tab)
-            "\\whatever\\" - \whatever\
-
-
-
-         */
+        System.out.println("My Number Is : "+x);
+        System.out.println("This is a long number : "+y);
+        System.out.println("This is a float value "+z);
+        System.out.println("This is a double value: " +a);
+        System.out.println("This is a boolean Value: " +b);
+        System.out.println("This is my Name using Strig : "+name);
 
 
     }
