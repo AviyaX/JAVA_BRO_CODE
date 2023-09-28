@@ -3,29 +3,23 @@ import javax.swing.JOptionPane;
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-      ///2D Array  -  an array of arrays
+      //String = a refferance data type that can store one or more chatachters
+        // refference data type have access to useful methods
 
-      String [][] cars =new String[3][3];
-      cars[0][0] = "Camaro";
-      cars[0][1] = "Corvette";
-      cars[0][2] = "Silvarado";
+        String name="Avishka";
 
-      cars[1][0] = "Ranger";
-      cars[1][1] = "mustang";
-      cars[1][2] = "Camaro";
-
-      cars[2][0] = "volvo";
-      cars[2][1] = "tesla";
-      cars[2][2] = "BMW";
-
-      for(int i=0; i<cars.length;i++){
-          System.out.println();
-          for (int j=0; j<cars[1].length; j++){
-              System.out.print(cars[i][j]+" ");
-          }
-      }
+        boolean result = name.equals("hAviska");
+        boolean result1 = name.equalsIgnoreCase("aviShka");
+        int result2 = name.length();
+        char result3 = name.charAt(0);
+        int result4 = name.indexOf("a");
+        boolean result5 = name.isEmpty();
+        String result6= name.toUpperCase();
+        String result7= name.toLowerCase();
+        String result8 = name.replace("A", "k");
 
 
+        System.out.println(result8);
 
 
     }
