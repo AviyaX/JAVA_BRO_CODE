@@ -381,6 +381,23 @@ Learning Java With Bro Code Channel In Youtube
                 System.out.println(groceryList.get(2).get(1));
 
 
+            //For each loop = traversing technique to iterate through the elements in an arry/ collectoin
+                     //   less steps, more readable
+                    // less flexibility
+            
+                    //String[] animals ={"Cat","Dog","rat","Bird"};
+                    ArrayList<String> animals = new ArrayList<String>();
+            
+                    animals.add("cat");
+                    animals.add("rat");
+                    animals.add("dog");
+                    animals.add("bird");
+            
+                    for(String i :animals){
+                        System.out.println(i);
+                    }
+
+
 
         
 
