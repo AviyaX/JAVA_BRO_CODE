@@ -413,6 +413,42 @@ Learning Java With Bro Code Channel In Youtube
                 //        System.out.println("hello" +name);
                 //        System.out.println("you are"+age);
                 //    }
+
+
+                        public static void main(String[] args) {
+                                // Overloaded Methods in Java - Methods that share same name but have different parameters
+                                //                          Method name + parameters = method signature
+                        
+                                double x = add(1.0,2,3.0,4.0);
+                                System.out.println(x);
+                            }
+                        
+                            static int add(int a, int b){
+                                System.out.println("This is overloaded method no 1");
+                                return a+b;
+                            }
+                            static int add(int a, int b, int c){
+                                System.out.println("This is overloaded method no 2");
+                                return a+b;
+                            }
+                            static int add(int a, int b, int c, int d){
+                                System.out.println("This is overloaded method no 3");
+                                return a+b;
+                            }
+                        
+                            static double add(double a, double b){
+                                System.out.println("This is overloaded method no 4");
+                                return a+b;
+                            }
+                            static double add(double a, double b, double c){
+                                System.out.println("This is overloaded method no 5");
+                                return a+b;
+                            }
+                            static double add(double a, double b, double c, double d){
+                                System.out.println("This is overloaded method no 6");
+                                return a+b;
+                            }
+
                 
                 
                 
