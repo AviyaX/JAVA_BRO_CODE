@@ -4,22 +4,35 @@ import javax.swing.JOptionPane;
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-     //ArryList - is a colection of resizable arry.
-        // Elemets can be added and removed after compilation phase
-        //store referances data types.
+        //2D Array LIst In Java  - a dynamic list of lists
+        // You can change the size
 
-        ArrayList<String> food = new ArrayList<String>();
-        food.add("Pizza");
-        food.add("Hamberger");
-        food.add("Hotdog");
+        ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
 
-        food.set(0,"Sushi");
-        food.remove(2);
-        food.clear();
+        ArrayList<String> bakeryList = new ArrayList<>();
+        bakeryList.add("Pasta");
+        bakeryList.add("GArlic Bread");
+        bakeryList.add("Donuts");
 
-        for(int i=0; i<food.size(); i++ ){
-            System.out.println(food.get(i));
-        }
+        ArrayList<String> producelist = new ArrayList<>();
+        producelist.add("tomato");
+        producelist.add("zucchini");
+        producelist.add("pepers");
+
+        ArrayList<String> drinklist = new ArrayList<>();
+        drinklist.add("soda");
+        drinklist.add("coffe");
+
+
+        groceryList.add(bakeryList);
+        groceryList.add(producelist);
+        groceryList.add(drinklist);
+
+
+        System.out.println(groceryList.get(1).get(1));
+        System.out.println(groceryList.get(2).get(1));
+
+
 
     }
 
