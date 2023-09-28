@@ -398,8 +398,25 @@ Learning Java With Bro Code Channel In Youtube
                     }
 
 
-
-        
+                //method = a block of code that is exicuted whenever it is call
+                //        String name ="Bro";
+                //        int age =21;
+                //        hello(name,age);
+                        int x=3;
+                        int y=4;
+                
+                        int sum= add(x,y);
+                        System.out.println(sum);
+                    }
+                
+                //    static void hello(String name, int age){
+                //        System.out.println("hello" +name);
+                //        System.out.println("you are"+age);
+                //    }
+                
+                
+                
+                        
 
                 
                 
