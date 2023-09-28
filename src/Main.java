@@ -3,24 +3,29 @@ import javax.swing.JOptionPane;
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-      //String = a refferance data type that can store one or more chatachters
-        // refference data type have access to useful methods
+     /*
+        Wrapper Classes - Provides a way to use primitive data types as referance data types
+            referaance data types contain useful methods
+            can be used with collections (Arrylists)
 
-        String name="Avishka";
+            Primitive       Wrapper
+            boolean         Boolean
+            char            Character
+            int             Integer
+            double          Double
+            // Autoboxing - the automatic conversion that the java compiler makes between the primitive and there corrosponding object wrapper class
 
-        boolean result = name.equals("hAviska");
-        boolean result1 = name.equalsIgnoreCase("aviShka");
-        int result2 = name.length();
-        char result3 = name.charAt(0);
-        int result4 = name.indexOf("a");
-        boolean result5 = name.isEmpty();
-        String result6= name.toUpperCase();
-        String result7= name.toLowerCase();
-        String result8 = name.replace("A", "k");
+      */
 
+        Boolean a = true;
+        Character b= '@';
+        Integer c = 123;
+        Double d = 3.14;
+        String e = "Avishka";
 
-        System.out.println(result8);
-
+        if (a==true){
+            System.out.println("This is true");
+        }
 
     }
 }
