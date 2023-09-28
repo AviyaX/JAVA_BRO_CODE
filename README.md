@@ -352,6 +352,36 @@ Learning Java With Bro Code Channel In Youtube
                         System.out.println(food.get(i));
         }
 
+        //2D Array LIst In Java  - a dynamic list of lists
+        // You can change the size
+
+                ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
+        
+                ArrayList<String> bakeryList = new ArrayList<>();
+                bakeryList.add("Pasta");
+                bakeryList.add("GArlic Bread");
+                bakeryList.add("Donuts");
+        
+                ArrayList<String> producelist = new ArrayList<>();
+                producelist.add("tomato");
+                producelist.add("zucchini");
+                producelist.add("pepers");
+        
+                ArrayList<String> drinklist = new ArrayList<>();
+                drinklist.add("soda");
+                drinklist.add("coffe");
+        
+        
+                groceryList.add(bakeryList);
+                groceryList.add(producelist);
+                groceryList.add(drinklist);
+        
+        
+                System.out.println(groceryList.get(1).get(1));
+                System.out.println(groceryList.get(2).get(1));
+
+
+
         
 
                 
