@@ -1,31 +1,26 @@
+import java.util.ArrayList;
 import java.util.Scanner; // including Scanner
 import javax.swing.JOptionPane;
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-     /*
-        Wrapper Classes - Provides a way to use primitive data types as referance data types
-            referaance data types contain useful methods
-            can be used with collections (Arrylists)
+     //ArryList - is a colection of resizable arry.
+        // Elemets can be added and removed after compilation phase
+        //store referances data types.
 
-            Primitive       Wrapper
-            boolean         Boolean
-            char            Character
-            int             Integer
-            double          Double
-            // Autoboxing - the automatic conversion that the java compiler makes between the primitive and there corrosponding object wrapper class
+        ArrayList<String> food = new ArrayList<String>();
+        food.add("Pizza");
+        food.add("Hamberger");
+        food.add("Hotdog");
 
-      */
+        food.set(0,"Sushi");
+        food.remove(2);
+        food.clear();
 
-        Boolean a = true;
-        Character b= '@';
-        Integer c = 123;
-        Double d = 3.14;
-        String e = "Avishka";
-
-        if (a==true){
-            System.out.println("This is true");
+        for(int i=0; i<food.size(); i++ ){
+            System.out.println(food.get(i));
         }
 
     }
+
 }
